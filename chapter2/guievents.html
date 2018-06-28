@@ -24,9 +24,16 @@
 
 <ul id="second"></ul>
 <script>
+
+// Additional documentation on events like mousemove, click etc - https://developer.mozilla.org/en-US/docs/Web/Events
     document.body.addEventListener("mousemove", function () {
         var second = document.getElementById("second");
         addMessage(second, "You moved the mouse!");
+    })
+
+    document.body.addEventListener("contextmenu", function () {
+        var second = document.getElementById("second");
+        addMessage(second, "You right Clicked something!");
     })
 
     document.body.addEventListener("click", function () {

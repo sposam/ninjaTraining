@@ -1,0 +1,12 @@
+1. what are the two phases in the lifecycle of a client side web application?
+A: Phase 1 - page building
+   Phase 2 - Event handling
+
+2. what is the main advantage of using the addEventListener method to register an event handler vs assigning a handler to a specific element property?
+A: assigning a handler to specific element property can be easily overwritten, but not with addEventListener
+
+3. how many events can be processed at once?
+A: JS is single threaded, so only one at a time.
+
+4. In what order are events from the event queue processed?
+A: FIFO - First in first out
