@@ -8,7 +8,7 @@ var store = {
     cache: {},
     add : function (fn) {
         if(!fn.id) {
-             fn.id = this.nextId++;
+            fn.id = this.nextId++;
             this.cache[fn.id] = fn;
             return true;
         } else {
@@ -16,8 +16,6 @@ var store = {
         }
     }
 };
-
-
 
 function ninja() {}
 function ninja2() {}
@@ -29,5 +27,3 @@ store.add(ninja2);
 store.add(ninja2);
 
 console.log(store);
-
-

@@ -9,3 +9,6 @@ function ninja() {
 
     return hiddenNinja();
 }
+
+console.log(samurai());
+console.log(ninja());
