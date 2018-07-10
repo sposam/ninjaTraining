@@ -1,2 +1,2 @@
-# ninjaTrainig
-Examples from The Javascript Ninja book
+# ninjaTraining
+Examples and exercises from The Javascript Ninja book by John Resig!
