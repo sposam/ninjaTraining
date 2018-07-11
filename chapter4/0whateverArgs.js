@@ -1,5 +1,6 @@
 const assert = require('assert');
 
+// the `arguments` iis array-like, but not an array and we can't use array methods on `arguments`.
 function whatever(a,b,c) {
     assert(a === 1, "the value of a is 1");
     assert(b === 2, "the value of b is 2");
