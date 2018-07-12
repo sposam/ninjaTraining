@@ -23,4 +23,3 @@ var ninjaThis = {
 };
 
 console.log(ninjaThis.getMyThis() === ninjaThis);   // returns true
-
